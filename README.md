@@ -15,7 +15,7 @@ The 'McColl_2023_MuscleProteinSynthesisKineticModel_230428' folder contains all 
 ### Installation
 Download the package to a local folder (e.g., '~/MuscleProteinSynthesisKineticModel/') by extracting the ZIP file or by running the following terminal command: 
 ```
-git clone https://github.sfu.ca/tmccoll/MuscleProteinSynthesisKineticModel.git
+git clone https://github.com/tjmccoll/MuscleProteinSynthesisKineticModel.git
 ```
 
 ### Running the model
