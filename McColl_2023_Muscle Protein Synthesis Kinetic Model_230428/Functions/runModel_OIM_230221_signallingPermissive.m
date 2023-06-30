@@ -86,7 +86,7 @@ if isequal(Protocol, 'Calibration, young adults')
     t_bolus = [t; t2];
     
         x_bolus(:,41) = KValueVector_given(6)*x_bolus(:,4); % Fm,a
-        x_bolus(:,42) = KValueVector_given(9)*x_bolus(:,8) + KValueVector_given(11)*x_bolus(:,7); % Fm,0
+        x_bolus(:,42) = KValueVector_given(9)*x_bolus(:,8)./x_bolus(:,10) + KValueVector_given(11)*x_bolus(:,7); % Fm,0; insulin mediated MPB
         x_bolus(:,43) = KValueVector_given(6)*x_bolus(:,4) - KValueVector_given(7)*x_bolus(:,6); % Net Balance
         x_bolus(:,44) = KValueVector_given(15)*x_bolus(:,6).*x_bolus(:,28); % MPS, r15
         x_bolus(:,45) = KValueVector_given(9)*x_bolus(:,8) ./ x_bolus(:,10); % MPB, r9 (p-IR concentration)
