@@ -167,7 +167,7 @@ if isequal(Protocol, 'Calibration, young adults') || isequal(Protocol ,'Valid., 
     t_bolus = [t; t2];
     
         x_bolus(:,41) = KValueVector_given(6)*x_bolus(:,4); % Fm,a
-        x_bolus(:,42) = KValueVector_given(9)*x_bolus(:,8) + KValueVector_given(11)*x_bolus(:,7); % Fm,0
+        x_bolus(:,42) = KValueVector_given(9)*x_bolus(:,8)./x_bolus(:,10) + KValueVector_given(11)*x_bolus(:,7); % Fm,0; insulin mediated MPB
         x_bolus(:,43) = KValueVector_given(6)*x_bolus(:,4) - KValueVector_given(7)*x_bolus(:,6); % Net Balance
         x_bolus(:,44) = KValueVector_given(15)*x_bolus(:,6).*x_bolus(:,28); % MPS, r15
         x_bolus(:,45) = KValueVector_given(9)*x_bolus(:,8) ./ x_bolus(:,10); % MPB, r9 (p-IR concentration)
@@ -215,7 +215,7 @@ elseif isequal(Protocol ,'Valid., Mitchell (2015) pulse')
     t_pulse = [t; t2; t3; t4; t5];
     
         x_pulse(:,41) = KValueVector_given(6)*x_pulse(:,4); % Fm,a
-        x_pulse(:,42) = KValueVector_given(9)*x_pulse(:,8) + KValueVector_given(11)*x_pulse(:,7); % Fm,0
+        x_pulse(:,42) = KValueVector_given(9)*x_pulse(:,8)./x_pulse(:,10) + KValueVector_given(11)*x_pulse(:,7); % Fm,0; insulin mediated MPB
         x_pulse(:,43) = KValueVector_given(6)*x_pulse(:,4) - KValueVector_given(7)*x_pulse(:,6); % Net Balance
         x_pulse(:,44) = KValueVector_given(15)*x_pulse(:,6).*x_pulse(:,28); % MPS, r15
         x_pulse(:,45) = KValueVector_given(9)*x_pulse(:,8) ./ x_pulse(:,10); % MPB, r9 (p-IR concentration)
@@ -251,7 +251,7 @@ elseif isequal(Protocol ,'Signaling knockdown')
     t_bolus = [t; t2];
     
         x_bolus(:,41) = KValueVector_given(6)*x_bolus(:,4); % Fm,a
-        x_bolus(:,42) = KValueVector_given(9)*x_bolus(:,8) + KValueVector_given(11)*x_bolus(:,7); % Fm,0
+        x_bolus(:,42) = KValueVector_given(9)*x_bolus(:,8)./x_bolus(:,10) + KValueVector_given(11)*x_bolus(:,7); % Fm,0; insulin mediated MPB
         x_bolus(:,43) = KValueVector_given(6)*x_bolus(:,4) - KValueVector_given(7)*x_bolus(:,6); % Net Balance
         x_bolus(:,44) = KValueVector_given(15)*x_bolus(:,6).*x_bolus(:,28); % MPS, r15
         x_bolus(:,45) = KValueVector_given(9)*x_bolus(:,8) ./ x_bolus(:,10); % MPB, r9 (p-IR concentration)
