@@ -33,7 +33,7 @@ To simulate the model:
 * ‘McColl_2023_model execution_230922.mlx’: This script contains the code to simulate the model and create all the plots included in the manuscript and supplementary information. 
 #### 'Experimental Data' folder:
 * ‘230221_experimental data.xlsx’: This excel file contains all experimental data collected for model calibration and validation.
-* ‘200832_Biolo, 3-pool parameters.xlsx’: 3-pool parameter values at baseline. These experimental values were used to calibrate the baseline k-values that control the 3-pool parameters. The comparison between the simulated and experimental baseline 3-pool parameter values are calculated at lines 42-43 in the ‘McColl_2023_model execution_230221.mlx’ script.
+* ‘200832_Biolo, 3-pool parameters.xlsx’: 3-pool parameter values at baseline. These experimental values were used to calibrate the baseline k-values that control the 3-pool parameters. The comparison between the simulated and experimental baseline 3-pool parameter values are calculated at lines 42-43 in the ‘McColl_2023_model execution_230922.mlx’ script.
 * '230308_Unit conversions.xslx': An excel file that provides the calculations for the conversion of units from experimental data sets to the input data in the model.
 #### 'Functions' folder:
 * Contains all required functions to run the model execution script. Information pertaining to each function is contained within the function script.
