@@ -233,9 +233,9 @@ hold on
 
 hold on
 if Kd_rxn == 16
-    leg = legend({'0.36', '0.36', '0.37', '0.38', '0.42'},'NumColumns', 1, 'Location','best'); % Insulin KO
+    leg = legend({'0.36', '0.36', '0.37', '0.39', '0.45'},'NumColumns', 1, 'Location','best'); % Insulin KO
 elseif Kd_rxn == 39
-    leg = legend({'0.36', '0.32', '0.28', '0.20', '0.13'},'NumColumns', 1, 'Location','best'); % leucine KO
+    leg = legend({'0.36', '0.32', '0.27', '0.20', '0.13'},'NumColumns', 1, 'Location','best'); % leucine KO
 else
 end
 
@@ -275,9 +275,9 @@ NB = x_mass(:,MPS_pos) - x_mass(:,MPB_pos);
     xticklabels(xTicksSeq)
         ymax = 4e-5;
     if Kd_rxn == 16
-        ylim([-1e-5 ymax])
+        ylim([-1.5e-5 ymax])
     elseif Kd_rxn == 39
-        ylim([-0.5e-5 ymax])
+        ylim([-0.6e-5 ymax])
     else
     end
 %         ylim([-1e-5 ymax])

@@ -275,7 +275,7 @@ subplotTight(height_y, length_x, 10:12)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-    ylim([-.55e-5 ymax])
+    ylim([-.85e-5 ymax])
     ylabel('Moles/min', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     title('Protein Balance', 'fontSize', fontSize_title)
@@ -327,7 +327,7 @@ MPS_simPeriod = mps(t_endEq(1):t_endRun(1));
 mps_max = max(MPS_simPeriod);
 mps_max_t = find(mps == mps_max);
 textOutput = sprintf('Simulated FSR:\n%.2f g leucine', mps_integral_grams);
-text(t(mps_max_t)*0.85, 4*mps_max, textOutput, ...
+text(t(mps_max_t)*0.85, 5*mps_max, textOutput, ...
     'VerticalAlignment', 'middle', 'HorizontalAlignment', 'center',...
         'FontSize', 11)
 

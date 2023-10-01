@@ -163,7 +163,7 @@ subplotTight(height_y, length_x, 4:6)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-        ymin = -0.2e-5;
+        ymin = -0.1e-5;
     ylim([ymin ymax])
     ylabel('Moles/minute', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
@@ -186,7 +186,7 @@ hold on
 
 % FSR legend
 if IV_variation_legend == "1x"
-    leg = legend({'0.36', '0.47', '0.58'},'NumColumns', 1, 'Location','northeast'); % p70S6K @ 1x
+    leg = legend({'0.36', '0.46', '0.58'},'NumColumns', 1, 'Location','northeast'); % p70S6K @ 1x
 elseif IV_variation_legend == "0.5x"
     leg = legend({'0.25', '0.32', '0.40'},'NumColumns', 1, 'Location','northeast'); % p70S6K @ 0.5x
 elseif IV_variation_legend == "0.25x"
@@ -212,7 +212,7 @@ subplotTight(height_y, length_x, 7:9)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-        ymin = -0.2e-5;
+        ymin = -0.35e-5;
     ylim([ymin ymax])
     ylabel('Moles/minute', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)

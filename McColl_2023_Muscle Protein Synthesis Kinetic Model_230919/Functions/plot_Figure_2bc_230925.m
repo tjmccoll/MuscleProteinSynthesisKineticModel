@@ -283,7 +283,7 @@ subplotTight(height_y, length_x, 10:12)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-    ylim([-.1e-5 ymax])
+    ylim([-.2e-5 ymax])
     ylabel('Moles/min', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     title('Protein Balance', 'fontSize', fontSize_title)

@@ -70,7 +70,6 @@ r4 = KValue(4)*Leu_plasma;
 r6 = KValue(6)*Leu_plasma;
 r7 = KValue(7) * (Leu_in - Leu_plasma); % active transport simulated
 
-% r9 = KValue(9)*Protein / IR_beta_pY1146; % insulin-mediated MPB
 r9 = KValue(9)*Protein / AKT_pT308; % insulin-mediated MPB (p-Akt(T); Akt/FoxO interaction)
 
 r10 = KValue(10)*Leu_in;

@@ -403,7 +403,7 @@ subplotTight(height_y, length_x, 21:24)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-    ylim([-0.1e-5 ymax])
+    ylim([-0.2e-5 ymax])
     ylabel('')
 %     ylabel('Moles/min', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
@@ -413,11 +413,9 @@ subplotTight(height_y, length_x, 21:24)
 % plot MPB and NB
 hold on
     plot(t, x_mass(:, MPB_pos), '-', 'LineWidth',1.25, 'Color',[1 0 0])
-    ylim([-0.1e-5 ymax])                         
 
     NetBalance = x_mass(:,44) - x_mass(:,45);
     plot(t, NetBalance,  '-', 'LineWidth',1.25, 'Color',[0 1 0])
-    ylim([-0.1e-5 ymax])
 
 % MPS AUC shading
 hold on

@@ -237,7 +237,7 @@ legend({'Total p70S6K', 'p-p70S6K^{T389}'}, 'Location','northeast');
 
 %% FSR
 subplotTight(height_y, length_x, 9:12)
-    plot (t, x_mass(:,MPS_pos), 'LineStyle', '-', 'LineWidth',2.5, 'Color',[0.5 0.5 0.5]) 
+    plot (t, x_mass(:,MPS_pos), 'LineStyle', '-.', 'LineWidth',2.5, 'Color',[0.5 0.5 0.5]) 
     grid on
         ax=gca;
         ax.FontSize = fontSize_units;
@@ -245,7 +245,7 @@ subplotTight(height_y, length_x, 9:12)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-        ymin = -0.1e-5;
+        ymin = -0.2e-5;
     ylim([ymin ymax])
     ylabel('Moles/min', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)

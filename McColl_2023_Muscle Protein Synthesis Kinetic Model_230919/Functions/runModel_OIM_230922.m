@@ -30,7 +30,7 @@ function [t, x, x_conc, expData_conc, expData_mass, CostParameters, intervention
 if isequal(Protocol, 'Calibration, young adults')
     interventionDuration = 180; % min
     AminoAcidInput = 3.5; % grams
-    CostParameters = [3, 4, 5, 21, 28, 41, 42, 6, 46]; 
+    CostParameters = [3, 4, 6, 21, 28, 41, 42, 46]; % plasma KIC (5) removed 
 
 % Validation protocols -----
 elseif isequal(Protocol, 'Valid., Glynn (2010) 1.85g') 

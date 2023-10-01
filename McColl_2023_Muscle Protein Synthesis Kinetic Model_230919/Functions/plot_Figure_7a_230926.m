@@ -222,7 +222,7 @@ subplotTight(height_y, length_x, 10:12)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-        ymin = -0.1e-5;
+        ymin = -0.3e-5;
     ylim([ymin ymax])
     ylabel('Moles/minute', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)

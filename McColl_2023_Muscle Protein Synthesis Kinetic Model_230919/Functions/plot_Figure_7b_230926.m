@@ -204,7 +204,7 @@ subplotTight(height_y, length_x, 10:12)
     xticks(xTicks)
     xticklabels(xTicksSeq)
         ymax = 4e-5;
-        ymin = -0.3e-5;
+        ymin = -0.4e-5;
     ylim([ymin ymax])
     ylabel('Moles/minute', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
     xlabel('Time (min)', 'fontWeight', 'bold', 'fontSize', fontSize_axes)
@@ -231,7 +231,7 @@ hold on
         'HandleVisibility','off');
 hold on
 % leg = legend({'0.36', '0.40', '0.34'},'NumColumns', 1, 'Location','northeast'); % mTORC1 feedback
-leg = legend({'0.54', '0.44', '0.36', '0.29', '0.21'},'NumColumns', 1, 'Location','northeast'); % mTORC1 feedback
+leg = legend({'0.54', '0.44', '0.36', '0.29', '0.20'},'NumColumns', 1, 'Location','northeast'); % mTORC1 feedback
 title(leg, 'FSR (g leu)')
 
 % legend({'MPS', 'MPB', 'NB'}, 'Location','northwest') % change 'handleVisibility' to 'on;
