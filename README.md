@@ -40,6 +40,10 @@ To simulate the model:
 #### 'Input Data' folder:
 * ’230922_Initial Values, IOM.xlsx’: Contains the initial values for each species that is inputted into the ODE function. 
 * ’230922_K-values, IOM.xlsx’: Contains the kinetic rate parameters that are inputted into the ODE function.
+#### 'Meta-analysis' folder:
+* Contains the R code and experimental data needed replicate the p-Akt and p-p70S6K meta-analysis and spline regressions.
+#### 'Optimizer' folder:
+* 	•	Contains the ‘runOptimizer_230923’ code to run the parameter optimizer and the ‘objectiveFunction_230923’ function that the optimizer seeks to minimize.
 #### 'Output Plots' folder:
 * Empty folder
 * The model execution script will create a folder corresponding to the date and time that line 9 is run where saved model figures are stored.
