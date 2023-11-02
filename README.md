@@ -12,7 +12,7 @@ This tool is being developed by the [Clarke Laboratory for Quantitative Exercise
 </picture>
 
 ## Getting Started
-The 'McColl_2023_MuscleProteinSynthesisKineticModel_230919' folder contains all required files (scripts, experimental data, input data) to run the model and replicate the manuscript figures. 
+The 'McColl_2023_MuscleProteinSynthesisKineticModel_231024' folder contains all required files (scripts, experimental data, input data) to run the model and replicate the manuscript figures. 
 
 ### Installation
 Download the package to a local folder (e.g., '~/MuscleProteinSynthesisKineticModel/') by extracting the ZIP file or by running the following terminal command: 
@@ -24,7 +24,7 @@ git clone https://github.com/tjmccoll/MuscleProteinSynthesisKineticModel.git
 
 To simulate the model:
 1. Open the ‘McColl_2023_model execution_230922.mlx’ live script from the ‘Code’ folder in MATLAB 2022a or newer. 
-2. Update the ‘FolderPath’ variable on line 4 to the file path that contains the locally saved ‘McColl_2023_Muscle Protein Synthesis Kinetic Model_230919’ folder. I.e., update the fileparts(‘…’) function.
+2. Update the ‘FolderPath’ variable on line 4 to the file path that contains the locally saved ‘McColl_2023_Muscle Protein Synthesis Kinetic Model_231024’ folder. I.e., update the fileparts(‘…’) function.
 3. Run each section of the script.
 4. Each manuscript figure provides the prompt: ‘Save figure? Y/N’. Enter 'Y' in the command window to save the figure as an .eps file. The figure will then be saved as an .eps file in the ‘Output Plots’ folder. Enter ’N’ in the command window to only create figure within the Matlab live script output. 
 
@@ -39,7 +39,7 @@ To simulate the model:
 * Contains all required functions to run the model execution script. Information pertaining to each function is contained within the function script.
 #### 'Input Data' folder:
 * ’230922_Initial Values, IOM.xlsx’: Contains the initial values for each species that is inputted into the ODE function. 
-* ’230922_K-values, IOM.xlsx’: Contains the kinetic rate parameters that are inputted into the ODE function.
+* ’231023_K-values, IOM.xlsx’: Contains the kinetic rate parameters that are inputted into the ODE function.
 #### 'Meta-analysis' folder:
 * Contains the R code and experimental data needed replicate the p-Akt and p-p70S6K meta-analysis and spline regressions.
 #### 'Optimizer' folder:
