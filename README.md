@@ -6,7 +6,7 @@ The muscle protein synthesis kinetic model allows for the simulation of leucine-
 
 This tool is being developed by the [Clarke Laboratory for Quantitative Exercise Biology](https://www.sfu.ca/clarkelab-bpk.html). Further information on the muscle protein synthesis kinetic model can be found in the following study.
 
-> McColl, T. J. & Clarke, D. C. Kinetic modeling of leucine-mediated signaling and protein metabolism in human skeletal muscle. 2023.06.10.544441 Preprint at https://doi.org/10.1101/2023.06.10.544441 (2023).
+> McColl, T. J. & Clarke, D. C. Kinetic modeling of leucine-mediated signaling and protein metabolism in human skeletal muscle. iScience 108634 (2023) doi:10.1016/j.isci.2023.108634.
 <picture>
   <img src="https://media.github.sfu.ca/user/1053/files/4532768b-11d6-48e7-bad4-34be4f65177e">
 </picture>
