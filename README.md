@@ -48,5 +48,11 @@ To simulate the model:
 * Empty folder
 * The model execution script will create a folder corresponding to the date and time that line 9 is run where saved model figures are stored.
 
+## Citation
+If you use this repository, please cite the original paper:
+> McColl, TJ & Clarke, DC.
+> *Kinetic modeling of leucine-mediated signaling and protein metabolism in human skeletal muscle*
+> **iScience. 27(1). 2024**
+
 ## Contact
 tmccoll@sfu.ca
