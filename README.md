@@ -50,10 +50,10 @@ To simulate the model:
 
 ## Citation
 If you use this repository, please cite the original paper:
-> **McColl, TJ & Clarke, DC.**
-> Kinetic modeling of leucine-mediated signaling and protein metabolism in human skeletal muscle
-> *iScience.* 27(1). 2024.
-> doi: [10.1016/j.isci.2023.108634]
+> **McColl, TJ & Clarke, DC.**\
+> Kinetic modeling of leucine-mediated signaling and protein metabolism in human skeletal muscle\
+> *iScience.* 27(1). 2024.\
+> doi: [10.1016/j.isci.2023.108634](https://www.cell.com/iscience/fulltext/S2589-0042(23)02711-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2589004223027116%3Fshowall%3Dtrue)
 
 ## Contact
 tmccoll@sfu.ca
